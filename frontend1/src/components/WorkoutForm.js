@@ -7,7 +7,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';*/
 
 const WorkoutForm = () => {
   const { dispatch } = useWorkoutsContext()
-cost url = "https://mern-stack1-backend.onrender.com"
+const url = "https://mern-stack1-backend.onrender.com"
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
   const [numberPhone, setNumberPhone] = useState('')
